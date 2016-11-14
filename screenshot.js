@@ -1,6 +1,6 @@
 var urls = [
-		'http://localhost/test/css-tutorial/work/',
-		'http://localhost/test/css-tutorial/demo/'
+		'http://www.heise.de/',
+		'http://www.ct.de/'
 	],
 	webpage = require('webpage'),
 	page = webpage.create(),
