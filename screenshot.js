@@ -1,11 +1,11 @@
 var urls = [
-		// Hier Liste von URLs
+		'http://localhost/test/css-tutorial/work/',
+		'http://localhost/test/css-tutorial/demo/'
 	],
 	webpage = require('webpage'),
 	page = webpage.create(),
 	nr = 0;
-// Seitendimensionen ggf. anpassen
-page.viewportSize = {width: 1000, height: 4000};
+page.viewportSize = {width: 1000, height: 5000};
 
 var screenshot = function() {
 	if (!urls.length) phantom.exit();
